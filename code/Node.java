@@ -17,7 +17,7 @@ public class Node {
 	public final int nodeID;
 	public final Location location;
 	public final Collection<Segment> segments;
-
+	
 	public Node(int nodeID, double lat, double lon) {
 		this.nodeID = nodeID;
 		this.location = Location.newFromLatLon(lat, lon);

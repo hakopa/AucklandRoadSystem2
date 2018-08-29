@@ -39,7 +39,6 @@ public class Graph {
 		// objects, but Graphics2D objects are nicer to work with. Luckily
 		// they're a subclass, and swing always gives them out anyway, so we can
 		// just do this.
-		System.out.println(findRoute);
 		Graphics2D g2 = (Graphics2D) g;
 
 		// draw all the segments.
@@ -119,6 +118,8 @@ public class Graph {
 	public void astar(){
 		Node toNode = highlightedNodes[0];
 		Node fromNode = highlightedNodes[1];
+		
+		
 		
 		
 	}

@@ -1,12 +1,20 @@
 
 public class AStarNode implements Comparable<AStarNode>{
-	AStarNode fromNode;
-	Node actNode;
+	Node nextNode; 
+	AStarNode preNode;
+	Segment edge;
+	double heuristic;
+	double startCost;
 	
-	boolean visted = false;
+	
+	
+	public AStarNode(Node nextNode, AStarNode preNode, double cost){
+		
+	}
 	@Override
 	public int compareTo(AStarNode comp) {
 		return 0;
+		
 	}
 	
 }

@@ -84,6 +84,7 @@ public class Mapper extends GUI {
 			}
 			
 			else{
+				//adds the start and goal node
 				if(graph.setRouteHighlight(closest)){
 					findRoute = false;
 				}
